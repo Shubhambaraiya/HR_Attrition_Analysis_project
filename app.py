@@ -107,7 +107,7 @@ c5.metric("Stress", round(avg_stress, 2))
 # c6.metric("Total Attrition", attrition)
 
 # ---------------- DEBUG ----------------
-with st.expander(" Debug Attrition"):
+with st.expander(" Attrition"):
     st.write(filtered_df["Attrition"].value_counts())
     # st.write("Total Attrition (Yes count):", attrition)
 
